@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/ADIOS', (req, res) => {
-  res.send('Bye World!')
+  res.status(201).send("Created")
 })
 
 
