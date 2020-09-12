@@ -41,10 +41,8 @@
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9756fec-87c8-4e0b-845e-fdf4b4484964" name="Default Changelist" comment="primera subida">
+    <list default="true" id="563b2532-26fe-4da1-a8bb-a32f49941b8f" name="Default Changelist" comment="subida parcial">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response5.txt" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response17.json" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1hPMgNxTONcDAxBVI7ZxR199luI" />
   <component name="ProjectViewState">
@@ -100,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599908429417</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="subida parcial">
+      <created>1599910961571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599910961571</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +124,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primera subida" />
-    <option name="LAST_COMMIT_MESSAGE" value="primera subida" />
+    <MESSAGE value="subida parcial" />
+    <option name="LAST_COMMIT_MESSAGE" value="subida parcial" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1056" y="412" key="#HTTP_Proxy" timestamp="1599909025486">
@@ -134,13 +140,38 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="455" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599908932996" />
+    <state width="1515" height="195" key="GridCell.Tab.0.bottom" timestamp="1599910999028">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1599910999028" />
+    <state width="1515" height="195" key="GridCell.Tab.0.center" timestamp="1599910999028">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="195" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1599910999028" />
+    <state width="1515" height="195" key="GridCell.Tab.0.left" timestamp="1599910999028">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="195" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1599910999028" />
+    <state width="1515" height="195" key="GridCell.Tab.0.right" timestamp="1599910999028">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="195" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1599910999028" />
     <state x="781" y="345" key="SettingsEditor" timestamp="1599908740642">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="345" key="SettingsEditor/0.0.2560.1400/2560.0.1920.1040@0.0.2560.1400" timestamp="1599908740642" />
-    <state x="3112" y="249" key="Vcs.Push.Dialog.v2" timestamp="1599908431212">
-      <screen x="2560" y="0" width="1920" height="1040" />
+    <state x="442" y="197" key="Vcs.Push.Dialog.v2" timestamp="1599910967694">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="442" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1599910967694" />
     <state x="3112" y="249" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.1920.1040@2560.0.1920.1040" timestamp="1599908431212" />
+    <state x="587" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599911480982">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="587" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1599911480982" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599910938166">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1599910938166" />
   </component>
 </project>
