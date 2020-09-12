@@ -1,0 +1,90 @@
+POST http://localhost:3000/adios
+Content-Type: application/json
+
+{
+  "ts": "ssdgsfdg",
+  "value": "content"
+}
+
+<> 2020-09-12T012133.200.json
+
+###
+
+POST https://localhost:3000/adios
+Content-Type: application/json
+
+{
+  "ts": "ssdgsfdg",
+  "value": "content"
+}
+
+###
+
+POST https://localhost:3000/adios
+Content-Type: application/json
+
+{
+  "id": fd7119c3-bcb7-4b5a-9a36-8363999494b0,
+  "price": 560,
+  "ts": 1599909650,
+  "value": "content"
+}
+
+###
+
+POST http://localhost:3000/adios
+
+Content-Type: application/json
+{
+	"adios": "adios"
+}
+
+<> 2020-09-12T012010.200.json
+
+###
+
+POST http://localhost:3000/adios
+Accept: */*
+Cache-Control:
+
+{
+	"adios": "adios"
+}
+
+<> 2020-09-12T011914.200.json
+
+###
+
+POST http://localhost:3000/adios
+Accept: */*
+Cache-Control:
+
+{
+  "id": 96cd5119-1f0f-4813-9877-6cc475bd6468,
+  "price": 343,
+  "ts": 1599909536,
+  "value": "content"
+}
+
+<> 2020-09-12T011856.200.json
+
+###
+
+POST http://localhost:3000/adios
+Accept: */*
+Cache-Control:
+
+###
+
+POST http://localhost:3000/adios
+Accept: */*
+Cache-Control:
+
+###
+
+POST http://localhost:3000/adios
+Accept: */*
+Cache-Control: no-cache
+
+###
+
