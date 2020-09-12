@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 const port = 3000
+const adminMiddleware = require('./middleware.js');
 app.use(bodyParser.json())
 app.get('/', (req, res) => {
   res.send('Hello World!')
@@ -12,7 +13,7 @@ app.get('/ADIOS', (req, res) => {
 })
 
 
-app.post('/adios', (req, res) => {
+app.post('/adios', adminMiddleware.isAdmin, (req, res) => {
 	console.log(req);
   res.send({
 	  "hola": req.body
