@@ -16,7 +16,14 @@ app.get('/params/:id', (req, res) => {
 })
 
 app.get('/getProduct/:numbersProducts', (req, res) => {
-    productController.getAllProduct(req, res);
+    productController.getListProduct(req, res);
+})
+
+
+app.get('/getAllProduct', (req, res) => {
+    productController.getAll(req, res, (variable) => {
+        res.send(variable);
+    });
 })
 
 app.get('/v2/params/:id/token/:token', (req, res) => {

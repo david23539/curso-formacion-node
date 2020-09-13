@@ -1,7 +1,7 @@
 'use strict'
 
 
-function getAllProduct(req, res) {
+function getListProduct(req, res) {
     const lengthArray = req.params
     const array = new Array(lengthArray.numbersProducts);
     for (let i = 0; i <= lengthArray.numbersProducts; i++) {
@@ -12,7 +12,13 @@ function getAllProduct(req, res) {
     })
 }
 
+function getAll(req, res, cb) {
+    const variable1 = 'hola';
+    cb(variable1);
+}
+
 
 module.exports = {
-    getAllProduct
+    getListProduct,
+    getAll
 }
