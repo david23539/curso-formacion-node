@@ -8,6 +8,22 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+app.get('/params/:id', (req, res) => {
+    const id = req.params;
+
+    res.send(id.id);
+})
+
+
+app.get('/v2/params/:id/token/:token', (req, res) => {
+    const params = req.params;
+
+    res.send({
+        "id": params.id,
+        "token": params.token
+    });
+})
+
 app.get('/ADIOS', (req, res) => {
   res.status(201).send("Created")
 })
