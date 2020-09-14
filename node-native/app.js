@@ -1,10 +1,14 @@
-const express = require('express')
-const app = express()
-const bodyParser = require('body-parser')
-const port = 3000
+const express = require('express');
+const bodyParser = require('body-parser');
 const adminMiddleware = require('./middleware.js');
-const productController = require('./product.controller.js')
-app.use(bodyParser.json())
+const productController = require('./product.controller.js');
+const categoriesRoutes = require('./category.routes');
+
+const app = express();
+const port = 3000
+app.use(bodyParser.json());
+app.use('/api', categoriesRoutes);
+
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
