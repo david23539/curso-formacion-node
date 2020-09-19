@@ -4,9 +4,6 @@ import {ProductDto} from "../../product.dto";
 @Controller('product')
 export class ProductController {
 
-
-
-
     @Get(':id')
     getProduct(@Param() params): string {
         return params.id;

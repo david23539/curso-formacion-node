@@ -30,7 +30,7 @@ export class AppController {
     return `El nombre del producto es ${productDto.name} con un precio de ${productDto.price} y un tamaño ${productDto.size}`;
   }
 
-  @Get(':id')
+/*  @Get(':id')
   getProduct(@Param() params): string {
     return params.id;
   }
@@ -38,5 +38,5 @@ export class AppController {
   @Get(':id')
   getProduct2(@Param() params, @Ip() ip): string {
     return ip;
-  }
+  }*/
 }
